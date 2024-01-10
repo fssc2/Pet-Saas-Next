@@ -13,6 +13,11 @@ const AppMenu = () => {
                     to: '/'
                 },
                 {
+                    label: 'Main-Dashboard',
+                    icon: 'pi pi-fw pi-home',
+                    to: '/maindashboard'
+                },
+                {
                     label: 'Banking',
                     icon: 'pi pi-fw pi-image',
                     to: '/dashboards/banking'
