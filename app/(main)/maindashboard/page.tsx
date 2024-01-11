@@ -21,31 +21,37 @@ const MainDashboard = () => {
                 </div>
 
                 <div className="col-12 pb-3 pt-4">
-                    <div className="grid grid-cols-12 gap-2">
+                    <div className="grid grid-cols-12 gap-5">
                         <div className="col">
-                            <div className="shadow-2 surface-card border-round p-3 h-full">
+                            <div className="shadow-2 surface-card border-round p-3  h-full">
                                 <div className="flex align-items-start">
 
-                                    <div className="ml-0 flex-1">
+                                    <div className="ml-0 flex-1 pb-1">
                                         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
 
                                             <div>
-                                                <span className="block text-900 mb-1 text-xl font-medium">
+                                                <span className="block text-900 mb-1  font-medium" style={{ fontSize: '1.15rem' }}>
                                                     Arrivals
                                                 </span>
                                             </div>
 
-                                            <div className="bg-blue-100 border-round inline-flex align-items-center justify-content-center" style={{ width: "34px", height: "34px" }}>
-                                            <img src="demo/images/blocks/illustration/stats-illustration-3.svg" alt="freya-layout" />
-                                            {/* demo\images\blocks\illustration */}
-                                                {/* <img src="assets/demo/images/blocks/illustration/stats-illustration-1.svg" alt="freya-layout" /> */}
-                                            </div>
-                                        </div>
-
-                                        <div className="flex align-items-center" style={{ justifyContent: 'flex-end', marginTop: '28px' }}>
+                                            {/* <div className="bg-blue-100 border-round inline-flex align-items-center justify-content-center" style={{ width: "34px", height: "34px" }}>
                                             <span className="font-bold text-700">
                                                 12/12
                                             </span>
+                                        
+                                            </div> */}
+                                                             <div className="flex align-items-center" style={{ justifyContent: 'flex-end' }}>
+                                            <span className="font-bold text-700">
+                                                12/12
+                                            </span>
+                                        </div>
+                                        </div>
+
+                                        <div className="flex align-items-center" style={{ justifyContent: 'flex-end', marginTop: '35px' }}>
+                                            {/* <span className="font-bold text-700">
+                                                12/12
+                                            </span> */}
                                         </div>
 
                                         <ul className="list-none p-0 m-0 flex align-content-center mt-2 gap-2">
@@ -65,25 +71,32 @@ const MainDashboard = () => {
                             <div className="shadow-2 surface-card border-round p-3 h-full">
                                 <div className="flex align-items-start">
 
-                                    <div className="ml-0 flex-1">
+                                    <div className="ml-0 flex-1 pb-1">
                                         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
 
                                             <div>
-                                                <span className="block text-900 mb-1 text-xl font-medium">
-                                                    Departure
+                                                <span className="block text-900 mb-1  font-medium" style={{ fontSize: '1.15rem' }}>
+                                                Departure
                                                 </span>
                                             </div>
 
-                                            <div className="bg-blue-100 border-round inline-flex align-items-center justify-content-center" style={{ width: "34px", height: "34px" }}>
-                                            <img src="demo/images/blocks/illustration/stats-illustration-2.svg" alt="freya-layout" />
-                                                {/* <img src="assets/demo/images/blocks/illustration/stats-illustration-2.svg" alt="freya-layout" /> */}
-                                            </div>
-                                        </div>
-
-                                        <div className="flex align-items-center" style={{ justifyContent: 'flex-end', marginTop: '28px' }}>
+                                            {/* <div className="bg-blue-100 border-round inline-flex align-items-center justify-content-center" style={{ width: "34px", height: "34px" }}>
                                             <span className="font-bold text-700">
                                                 12/12
                                             </span>
+                                        
+                                            </div> */}
+                                                             <div className="flex align-items-center" style={{ justifyContent: 'flex-end' }}>
+                                            <span className="font-bold text-700">
+                                                12/12
+                                            </span>
+                                        </div>
+                                        </div>
+
+                                        <div className="flex align-items-center" style={{ justifyContent: 'flex-end', marginTop: '35px' }}>
+                                            {/* <span className="font-bold text-700">
+                                                12/12
+                                            </span> */}
                                         </div>
 
                                         <ul className="list-none p-0 m-0 flex align-content-center mt-2 gap-2">
@@ -102,27 +115,32 @@ const MainDashboard = () => {
                             <div className="shadow-2 surface-card border-round p-3 h-full">
                                 <div className="flex align-items-start">
 
-                                    <div className="ml-0 flex-1">
+                                    <div className="ml-0 flex-1 pb-1">
                                         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
 
                                             <div>
-                                                <span className="block text-900 mb-1 text-xl font-medium">
-                                                    Appointments
+                                                <span className="block text-900 mb-1  font-medium" style={{ fontSize: '1.15rem' }}>
+                                                Appointments
                                                 </span>
                                             </div>
 
-                                           
-                                         <div className="bg-blue-100 border-round inline-flex align-items-center justify-content-center" style={{ width: "34px", height: "34px" }}>
-                                         <img src="demo/images/blocks/illustration/stats-illustration-1.svg" alt="freya-layout" />
-                                                {/* <img src="assets/images/blocks/illustration/stats-illustration-3.svg" alt="freya-layout" /> */}
-                                                {/* <img src="assets/images/blocks/hero/hero-1.png" alt="hero-1" className="md:ml-auto block md:h-full" style={{ clipPath: 'polygon(8% 0, 100% 0%, 100% 100%, 0 100%)' }} /> */}
-                                            </div>
-                                        </div>
-
-                                        <div className="flex align-items-center" style={{ justifyContent: 'flex-end', marginTop: '28px' }}>
+                                            {/* <div className="bg-blue-100 border-round inline-flex align-items-center justify-content-center" style={{ width: "34px", height: "34px" }}>
                                             <span className="font-bold text-700">
                                                 12/12
                                             </span>
+                                        
+                                            </div> */}
+                                                             <div className="flex align-items-center" style={{ justifyContent: 'flex-end' }}>
+                                            <span className="font-bold text-700">
+                                                12/12
+                                            </span>
+                                        </div>
+                                        </div>
+
+                                        <div className="flex align-items-center" style={{ justifyContent: 'flex-end', marginTop: '35px' }}>
+                                            {/* <span className="font-bold text-700">
+                                                12/12
+                                            </span> */}
                                         </div>
 
                                         <ul className="list-none p-0 m-0 flex align-content-center mt-2 gap-2">
@@ -142,34 +160,35 @@ const MainDashboard = () => {
                             <div className="shadow-2 surface-card border-round p-3 h-full">
                                 <div className="flex align-items-start">
 
-                                    <div className="ml-0 flex-1">
+                                    <div className="ml-0 flex-1 pb-1">
                                         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
 
                                             <div>
-                                                <span className="block text-900 mb-1 text-xl font-medium">
+                                                <span className="block text-900 mb-1  font-medium" style={{ fontSize: '1.15rem' }}>
                                                     Occupancy
                                                 </span>
-                                                <span className="text-500">
+                                                {/* <span className="text-500">
                                                     43%
-                                                </span>
+                                                </span> */}
                                             </div>
-                                            <div className="bg-blue-100 border-round inline-flex align-items-center justify-content-center" style={{ width: "34px", height: "34px" }}>
-                                            <img src="demo/images/blocks/illustration/stats-illustration-3.svg" alt="freya-layout" />
-                                                {/* <img src="assets/demo/images/blocks/illustration/stats-illustration-2.svg" alt="freya-layout" /> */}
-                                                {/* <img src="assets/images/blocks/illustration/stats-illustration-3.svg" alt="freya-layout" /> */}
-                                            </div>
+                                            {/* <div className="bg-blue-100 border-round inline-flex align-items-center justify-content-center" style={{ width: "34px", height: "34px" }}>
+                                           
+                                            </div> */}
+                                            <span className="font-bold text-700">
+                                                43%
+                                            </span>
                                         </div>
 
-                                        <div className="flex align-items-center justify-content-between" style={{ justifyContent: 'flex-end', marginTop: '18px' }}>
+                                        <div className="flex align-items-center justify-content-between" style={{ justifyContent: 'flex-end', marginTop: '22px' }}>
                                             <span className="text-xs text-500">
                                                 2 Occupied
                                             </span>
                                             <span className="text-xs text-500">
                                                 5 Available
                                             </span>
-                                            <span className="font-bold text-700">
+                                            {/* <span className="font-bold text-700">
                                                 12/12
-                                            </span>
+                                            </span> */}
                                         </div>
 
                                         <ul className="list-none p-0 m-0 flex align-content-center mt-2 gap-2">
@@ -184,39 +203,29 @@ const MainDashboard = () => {
                                 </div>
                             </div>
                         </div>
-
                         <div className="col">
                             <div className="shadow-2 surface-card border-round p-3 h-full">
                                 <div className="flex align-items-start">
 
-                                    <div className="ml-0 flex-1">
+                                    <div className="ml-0 flex-1 pb-1">
                                         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
 
-                                            <div >
-                                                <span className="block text-900 mb-1 text-xl font-medium">
-                                                    Pending
+                                            <div>
+                                                <span className="block text-900 mb-1  font-medium" style={{ fontSize: '1.15rem' }}>
+                                                   Pending
                                                 </span>
-                                                <span className="text-400"  >
-                                                    3 Requests
-                                                </span>
-
                                             </div>
-
-                                      
-                                          <div className="bg-blue-100 border-round inline-flex align-items-center justify-content-center" style={{ width: "34px", height: "34px" }}>
-                                          <img src="demo/images/blocks/illustration/stats-illustration-1.svg" alt="freya-layout" />
-                                            {/* <img src="assets/images/blocks/illustration/stats-illustration-3.svg" alt="freya-layout" /> */}
-                                                {/* <img src="assets/demo/images/blocks/illustration/stats-illustration-1.svg" alt="freya-layout" /> */}
-                                            </div>
+                                            <span className="font-bold text-700">
+                                            12/12
+                                            </span>
                                         </div>
 
-                                        <div className="flex align-items-center justify-content-between" >
-                                            <span className="text-400" >
-                                                2 Wait List
+                                        <div className="flex align-items-center justify-content-between" style={{ justifyContent: 'flex-end', marginTop: '22px' }}>
+                                            <span className="text-xs text-500">
+                                            3 Requests
                                             </span>
-
-                                            <span className="font-bold text-700" style={{ justifyContent: 'flex-end', marginTop: '18px' }}>
-                                                12/12
+                                            <span className="text-xs text-500">
+                                                2 Wait List
                                             </span>
                                         </div>
 
@@ -234,11 +243,11 @@ const MainDashboard = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-12 md:col-6 xl:col-3 pb-3 pt-4">< DepartureTable tableName="Arrivals" /></div>
-                <div className="col-12 md:col-8 xl:col-6 pb-3 pt-4">< DashboardTable tableName="Checked In" /></div>
-                <div className="col-12 md:col-6 xl:col-3 pb-3 pt-4">< DepartureTable tableName="Departures" /></div>
+                <div className="col-12 md:col-6 xl:col-3 pb-3 pt-4 ">< DepartureTable tableName="Arrivals" /></div>
+                <div className="col-12 md:col-8 xl:col-6 pb-3 pt-4 ">< DashboardTable tableName="Checked In" /></div>
+                <div className="col-12 md:col-6 xl:col-3 pb-3 pt-4 ">< DepartureTable tableName="Departures" /></div>
                 <LiveActivityFeed />
-                <div className="col-12 md:col-6 pb-3 pt-4 "  >
+                <div className="col-12 md:col-6 pb-3 pt-4 h-1/2 "  >
                     <CalendarDemo   />
                 </div>                
             </div>
