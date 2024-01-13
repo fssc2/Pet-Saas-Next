@@ -527,8 +527,8 @@ interface DashboardTableProps {
 
     return (
         <div className="grid">
-            <div className="col-12">
-                <div className="card">
+            <div className="col-12 ">
+                <div className="card" style={{ background: 'none', borderRadius: 'none', boxShadow: 'none' }}>
                     <h5>Checked In</h5>
                     <DataTable
                         // value={customers1}

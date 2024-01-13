@@ -22,15 +22,15 @@ const MainDashboard = () => {
 
                 <div className="col-12 pb-3 pt-4">
                     <div className="grid grid-cols-12 gap-5">
-                        <div className="col">
+                        <div className="col p-3">
                             <div className="shadow-2 surface-card border-round p-3  h-full">
                                 <div className="flex align-items-start">
 
-                                    <div className="ml-0 flex-1 pb-1">
+                                    <div className="ml-0 flex-1 pb-0">
                                         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
 
                                             <div>
-                                                <span className="block text-900 mb-1  font-medium" style={{ fontSize: '1.15rem' }}>
+                                                <span className="block text-900 mb-0  font-medium" style={{ fontSize: '1.15rem' }}>
                                                     Arrivals
                                                 </span>
                                             </div>
@@ -48,7 +48,7 @@ const MainDashboard = () => {
                                         </div>
                                         </div>
 
-                                        <div className="flex align-items-center" style={{ justifyContent: 'flex-end', marginTop: '35px' }}>
+                                        <div className="flex align-items-center" style={{ justifyContent: 'flex-end', marginTop: '22px' }}>
                                             {/* <span className="font-bold text-700">
                                                 12/12
                                             </span> */}
@@ -67,15 +67,15 @@ const MainDashboard = () => {
                             </div>
                         </div>
 
-                        <div className="col">
+                        <div className="col p-3">
                             <div className="shadow-2 surface-card border-round p-3 h-full">
                                 <div className="flex align-items-start">
 
-                                    <div className="ml-0 flex-1 pb-1">
+                                    <div className="ml-0 flex-1 pb-0">
                                         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
 
                                             <div>
-                                                <span className="block text-900 mb-1  font-medium" style={{ fontSize: '1.15rem' }}>
+                                                <span className="block text-900 mb-0  font-medium" style={{ fontSize: '1.15rem' }}>
                                                 Departure
                                                 </span>
                                             </div>
@@ -93,7 +93,7 @@ const MainDashboard = () => {
                                         </div>
                                         </div>
 
-                                        <div className="flex align-items-center" style={{ justifyContent: 'flex-end', marginTop: '35px' }}>
+                                        <div className="flex align-items-center" style={{ justifyContent: 'flex-end', marginTop: '22px' }}>
                                             {/* <span className="font-bold text-700">
                                                 12/12
                                             </span> */}
@@ -111,15 +111,15 @@ const MainDashboard = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
+                        <div className="col p-3">
                             <div className="shadow-2 surface-card border-round p-3 h-full">
                                 <div className="flex align-items-start">
 
-                                    <div className="ml-0 flex-1 pb-1">
+                                    <div className="ml-0 flex-1 pb-0">
                                         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
 
                                             <div>
-                                                <span className="block text-900 mb-1  font-medium" style={{ fontSize: '1.15rem' }}>
+                                                <span className="block text-900 mb-0  font-medium" style={{ fontSize: '1.15rem' }}>
                                                 Appointments
                                                 </span>
                                             </div>
@@ -137,7 +137,7 @@ const MainDashboard = () => {
                                         </div>
                                         </div>
 
-                                        <div className="flex align-items-center" style={{ justifyContent: 'flex-end', marginTop: '35px' }}>
+                                        <div className="flex align-items-center" style={{ justifyContent: 'flex-end', marginTop: '22px' }}>
                                             {/* <span className="font-bold text-700">
                                                 12/12
                                             </span> */}
@@ -156,15 +156,15 @@ const MainDashboard = () => {
                             </div>
                         </div>
 
-                        <div className="col">
+                        <div className="col p-3">
                             <div className="shadow-2 surface-card border-round p-3 h-full">
                                 <div className="flex align-items-start">
 
-                                    <div className="ml-0 flex-1 pb-1">
+                                    <div className="ml-0 flex-1 pb-0">
                                         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
 
                                             <div>
-                                                <span className="block text-900 mb-1  font-medium" style={{ fontSize: '1.15rem' }}>
+                                                <span className="block text-900 mb-0  font-medium" style={{ fontSize: '1.15rem' }}>
                                                     Occupancy
                                                 </span>
                                                 {/* <span className="text-500">
@@ -179,7 +179,7 @@ const MainDashboard = () => {
                                             </span>
                                         </div>
 
-                                        <div className="flex align-items-center justify-content-between" style={{ justifyContent: 'flex-end', marginTop: '22px' }}>
+                                        <div className="flex align-items-center justify-content-between" style={{ justifyContent: 'flex-end', marginTop: '14px' }}>
                                             <span className="text-xs text-500">
                                                 2 Occupied
                                             </span>
@@ -203,15 +203,15 @@ const MainDashboard = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
+                        <div className="col p-3">
                             <div className="shadow-2 surface-card border-round p-3 h-full">
                                 <div className="flex align-items-start">
 
-                                    <div className="ml-0 flex-1 pb-1">
+                                    <div className="ml-0 flex-1 pb-0">
                                         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
 
                                             <div>
-                                                <span className="block text-900 mb-1  font-medium" style={{ fontSize: '1.15rem' }}>
+                                                <span className="block text-900 mb-0  font-medium" style={{ fontSize: '1.15rem' }}>
                                                    Pending
                                                 </span>
                                             </div>
@@ -220,7 +220,7 @@ const MainDashboard = () => {
                                             </span>
                                         </div>
 
-                                        <div className="flex align-items-center justify-content-between" style={{ justifyContent: 'flex-end', marginTop: '22px' }}>
+                                        <div className="flex align-items-center justify-content-between" style={{ justifyContent: 'flex-end', marginTop: '14px' }}>
                                             <span className="text-xs text-500">
                                             3 Requests
                                             </span>
@@ -243,9 +243,9 @@ const MainDashboard = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-12 md:col-6 xl:col-3 pb-3 pt-4 ">< DepartureTable tableName="Arrivals" /></div>
-                <div className="col-12 md:col-8 xl:col-6 pb-3 pt-4 ">< DashboardTable tableName="Checked In" /></div>
-                <div className="col-12 md:col-6 xl:col-3 pb-3 pt-4 ">< DepartureTable tableName="Departures" /></div>
+                <div className="col-12 md:col-6 xl:col-3 pb-3 pt-4 pl-0">< DepartureTable tableName="Arrivals" /></div>
+                <div className="col-12 md:col-8 xl:col-6 pb-3 pt-4 pl-0">< DashboardTable tableName="Checked In" /></div>
+                <div className="col-12 md:col-6 xl:col-3 pb-3 pt-4 pl-0 ">< DepartureTable tableName="Departures" /></div>
                 <LiveActivityFeed />
                 <div className="col-12 md:col-6 pb-3 pt-4 h-1/2 "  >
                     <CalendarDemo   />

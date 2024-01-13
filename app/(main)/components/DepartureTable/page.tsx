@@ -282,7 +282,7 @@ interface DepartureTableProps {
     return (
         <div className="grid">
             <div className="col-12">
-                <div className="card">
+                <div className="card"  style={{ background: 'none', borderRadius: 'none', boxShadow: 'none',paddingLeft:'17px' }}>
                     <h5>Arrivals</h5>
                     <DataTable
                     value={customers1.slice(0, 6)} 
