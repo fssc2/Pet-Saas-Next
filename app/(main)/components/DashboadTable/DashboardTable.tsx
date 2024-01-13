@@ -64,7 +64,6 @@
 //                 </div>
 //             </div>
 
-
 //             <div className="col-12">
 //                 <div className="card">
 //                     <h5>Filter Menu</h5>
@@ -107,7 +106,6 @@
 // };
 
 // export default DashboardTable;
-
 
 'use client';
 // import { CustomerService } from '../../../../demo/service/CustomerService';
@@ -270,10 +268,9 @@ import type { Demo } from '@/types';
 
 interface DashboardTableProps {
     tableName: string;
-  }
-  
-  const DashboardTable: React.FC<DashboardTableProps> = ({ tableName }) => {
+}
 
+const DashboardTable: React.FC<DashboardTableProps> = ({ tableName }) => {
     const [customers1, setCustomers1] = useState<Demo.Customer[]>([]);
     const [filters1, setFilters1] = useState<DataTableFilterMeta>({});
     const [loading1, setLoading1] = useState(true);
@@ -472,20 +469,19 @@ interface DashboardTableProps {
         if (allExpanded) collapseAll();
         else expandAll();
     };
-    
+
     const expandAll = () => {
         // let _expandedRows = {} as { [key: string]: boolean };
         // customers1.forEach((c) => (_expandedRows[`${c.id}`] = true));
-    
         // setExpandedRows(_expandedRows);
         // setAllExpanded(true);
     };
-    
+
     const collapseAll = () => {
         setExpandedRows([]);
         setAllExpanded(false);
     };
-    
+
     const header = <Button icon={allExpanded ? 'pi pi-minus' : 'pi pi-plus'} label={allExpanded ? 'Collapse All' : 'Expand All'} onClick={toggleAll} className="w-11rem" />;
     // const header = <Button icon={allExpanded ? 'pi pi-minus' : 'pi pi-plus'} label={allExpanded ? 'Collapse All' : 'Expand All'} onClick={toggleAll} className="w-11rem" />;
 
@@ -528,15 +524,15 @@ interface DashboardTableProps {
     return (
         <div className="grid">
             <div className="col-12 ">
-                <div className="card" style={{ background: 'none', borderRadius: 'none', boxShadow: 'none' }}>
+                <div className="card" style={{ background: 'none', borderRadius: 'none', boxShadow: 'none', paddingTop: '0px' }}>
                     <h5>Checked In</h5>
                     <DataTable
                         // value={customers1}
                         // value= {customers1.slice(0, 4)}
-                        value={customers1.slice(0, 6)} 
+                        value={customers1.slice(0, 6)}
                         //  paginator={false}
                         //  paginator
-                        // rows={customers1.length} 
+                        // rows={customers1.length}
                         className="p-datatable-gridlines"
                         // showGridlines
                         rows={7}
@@ -549,7 +545,7 @@ interface DashboardTableProps {
                         // header={header1}
                     >
                         <Column field="pet" header="Pet" filter filterPlaceholder="Search by name" style={{ minWidth: '5rem' }} />
-                        
+
                         <Column field="time" header="Time" filter filterPlaceholder="Search by name" style={{ minWidth: '3rem' }} />
 
                         <Column field="codes" header="Codes" filter filterPlaceholder="Search by name" style={{ minWidth: '4rem' }} />
@@ -563,4 +559,3 @@ interface DashboardTableProps {
 };
 
 export default DashboardTable;
-
