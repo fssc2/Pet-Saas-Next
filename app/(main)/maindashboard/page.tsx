@@ -1,7 +1,7 @@
 import CalendarDemo from '../apps/calendar/page';
-import DashboardTable from '../components/DashboadTable/page';
-import DepartureTable from '../components/DepartureTable/page';
-import LiveActivityFeed from '../components/LiveActivity/page';
+import DashboardTable from '../components/DashboadTable/DashboardTable';
+import DepartureTable from '../components/DepartureTable/DepartureTable';
+import LiveActivityFeed from '../components/LiveActivity/DepartureTable';
 
 const MainDashboard = () => {
 
