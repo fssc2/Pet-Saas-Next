@@ -21,18 +21,15 @@ import type { Demo } from '@/types';
 
 interface DepartureTableProps {
     tableName: string;
-  }
-  
-  const DepartureTable: React.FC<DepartureTableProps> = ({ tableName }) => {
+}
 
+const DepartureTable: React.FC<DepartureTableProps> = ({ tableName }) => {
     const [customers1, setCustomers1] = useState<Demo.Customer[]>([]);
     const [filters1, setFilters1] = useState<DataTableFilterMeta>({});
     const [loading1, setLoading1] = useState(true);
     const [globalFilterValue1, setGlobalFilterValue1] = useState('');
     const [expandedRows, setExpandedRows] = useState<any[] | DataTableExpandedRows>([]);
     const [allExpanded, setAllExpanded] = useState(false);
-
-    
 
     const representatives = [
         { name: 'Amy Elsner', image: 'amyelsner.png' },
@@ -47,7 +44,6 @@ interface DepartureTableProps {
         { name: 'XuXue Feng', image: 'xuxuefeng.png' }
     ];
 
-    
     const statuses = ['unqualified', 'qualified'];
 
     const clearFilter1 = () => {
@@ -226,20 +222,20 @@ interface DepartureTableProps {
         if (allExpanded) collapseAll();
         else expandAll();
     };
-    
+
     const expandAll = () => {
         let _expandedRows = {} as { [key: string]: boolean };
         customers1.forEach((c) => (_expandedRows[`${c.id}`] = true));
-    
+
         setExpandedRows(_expandedRows);
         setAllExpanded(true);
     };
-    
+
     const collapseAll = () => {
         setExpandedRows([]);
         setAllExpanded(false);
     };
-    
+
     const header = <Button icon={allExpanded ? 'pi pi-minus' : 'pi pi-plus'} label={allExpanded ? 'Collapse All' : 'Expand All'} onClick={toggleAll} className="w-11rem" />;
     // const header = <Button icon={allExpanded ? 'pi pi-minus' : 'pi pi-plus'} label={allExpanded ? 'Collapse All' : 'Expand All'} onClick={toggleAll} className="w-11rem" />;
 
@@ -282,10 +278,10 @@ interface DepartureTableProps {
     return (
         <div className="grid">
             <div className="col-12">
-                <div className="card"  style={{ background: 'none', borderRadius: 'none', boxShadow: 'none',paddingLeft:'17px',paddingTop:'0px' }}>
-                    <h5>Arrivals</h5>
+                <div className="card" style={{ background: 'none', borderRadius: 'none', boxShadow: 'none', padding: '0px', paddingLeft: '14px', paddingRight: '11px' }}>
+                    <h5>{tableName}</h5>
                     <DataTable
-                    value={customers1.slice(0, 6)} 
+                        value={customers1.slice(0, 6)}
                         // value={customers1}
                         // paginator
                         // className="p-datatable-gridlines"
@@ -300,9 +296,8 @@ interface DepartureTableProps {
                         // header={header1}
                     >
                         <Column field="pet" header="Pet" filter filterPlaceholder="Search by name" style={{ minWidth: '5rem' }} />
-                        
+
                         <Column field="time" header="Time" filter filterPlaceholder="Search by name" style={{ minWidth: '3rem' }} />
-                      
                     </DataTable>
                 </div>
             </div>

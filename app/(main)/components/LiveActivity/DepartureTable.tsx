@@ -117,7 +117,7 @@ function LiveActivityFeed() {
                             <div className="card">
                                 <div className="card-header gap-3 pb-2 ">
                                     <div className="card-title">
-                                        <h6>Live Activity Feed</h6>
+                                        <h5>Live Activity Feed</h5>
                                     </div>
                                 </div>
                                 <TabView className="w-full p-0">

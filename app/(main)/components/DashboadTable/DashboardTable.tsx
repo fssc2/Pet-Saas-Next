@@ -524,7 +524,7 @@ const DashboardTable: React.FC<DashboardTableProps> = ({ tableName }) => {
     return (
         <div className="grid">
             <div className="col-12 ">
-                <div className="card" style={{ background: 'none', borderRadius: 'none', boxShadow: 'none', paddingTop: '0px' }}>
+                <div className="card" style={{ background: 'none', borderRadius: 'none', boxShadow: 'none', padding: '0px', paddingLeft: '14px', paddingRight: '11px'}}>
                     <h5>Checked In</h5>
                     <DataTable
                         // value={customers1}
