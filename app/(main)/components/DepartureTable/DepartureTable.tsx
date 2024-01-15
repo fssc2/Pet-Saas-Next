@@ -295,9 +295,11 @@ const DepartureTable: React.FC<DepartureTableProps> = ({ tableName }) => {
                         emptyMessage="No customers found."
                         // header={header1}
                     >
+                        <Column field="a" header="A" style={{ minWidth: '1rem', maxWidth: '1rem' }} />
                         <Column field="pet" header="Pet" filter filterPlaceholder="Search by name" style={{ minWidth: '5rem' }} />
-
+                        <Column field="b" header="B" style={{ minWidth: '1rem', maxWidth: '1rem' }} />
                         <Column field="time" header="Time" filter filterPlaceholder="Search by name" style={{ minWidth: '3rem' }} />
+                        <Column field="c" header="C" style={{ minWidth: '1rem', maxWidth: '1rem' }} />
                     </DataTable>
                 </div>
             </div>
