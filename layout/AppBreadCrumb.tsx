@@ -48,7 +48,7 @@ const AppBreadcrumb = () => {
         <div className="layout-breadcrumb flex align-items-center relative h-3rem">
             <nav className="layout-breadcrumb">
                 <ol>
-                    {ObjectUtils.isNotEmpty(breadcrumb) && pathname !== '/' && pathname !== '/dashboards/banking' ? (
+                    {ObjectUtils.isNotEmpty(breadcrumb) ? (
                         breadcrumb?.labels?.map((label, index) => {
                             return (
                                 <React.Fragment key={index}>
@@ -59,8 +59,8 @@ const AppBreadcrumb = () => {
                         })
                     ) : (
                         <>
-                            {pathname === '/' && <li key={'home'}>E-Commerce Dashboard</li>}
-                            {pathname === '/dashboards/banking' && <li key={'home'}>Banking Dashboard</li>}
+                            {pathname === '/' && <li key={'home'}>Main Dashboard</li>}
+                            {/* {pathname === '/dashboards/banking' && <li key={'home'}>Banking Dashboard</li>} */}
                         </>
                     )}
                 </ol>

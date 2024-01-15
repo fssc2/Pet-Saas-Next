@@ -243,6 +243,7 @@ const AppMenu = () => {
                     icon: 'pi pi-fw pi-home',
                     to: '/'
                 },
+             
                 {
                     label: 'Banking',
                     icon: 'pi pi-fw pi-image',
