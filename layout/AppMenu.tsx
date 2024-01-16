@@ -7,16 +7,26 @@ const AppMenu = () => {
             label: 'Dashboards',
             icon: 'pi pi-home',
             items: [
+                // {
+                //     label: 'E-Commerce',
+                //     icon: 'pi pi-fw pi-home',
+                //     to: '/'
+                // },
                 {
-                    label: 'E-Commerce',
+                    label: 'Main Dashboard',
                     icon: 'pi pi-fw pi-home',
                     to: '/'
                 },
                 {
-                    label: 'Banking',
-                    icon: 'pi pi-fw pi-image',
-                    to: '/dashboards/banking'
+                    label: 'Boarding & Daycare',
+                    icon: 'pi pi-fw pi-home',
+                    to: '/daycare'
                 }
+                // {
+                //     label: 'Banking',
+                //     icon: 'pi pi-fw pi-image',
+                //     to: '/dashboards/banking'
+                // }
             ]
         },
         {

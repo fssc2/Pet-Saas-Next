@@ -7,6 +7,7 @@ import { LayoutContext } from './context/layoutcontext';
 import { Breadcrumb } from '../types/layout';
 import { InputText } from 'primereact/inputtext';
 import { Button } from 'primereact/button';
+import BreadCrumbs from '../app/(main)/components/BreadCrumbs/BreadCrumbs'
 
 const AppBreadcrumb = () => {
     const [searchActive, setSearchActive] = useState(false);
@@ -45,10 +46,15 @@ const AppBreadcrumb = () => {
     };
 
     return (
-        <div className="layout-breadcrumb flex align-items-center relative h-3rem">
-            <nav className="layout-breadcrumb">
-                <ol>
-                    {ObjectUtils.isNotEmpty(breadcrumb) && pathname !== '/' && pathname !== '/dashboards/banking' ? (
+        // <div className="layout-breadcrumb flex align-items-center relative h-3rem">
+             <div className="list-none  mb-4 pl-0 m-0 shadow-2 surface-card border-round flex font-medium overflow-y-hidden overflow-x-auto">
+             {/* <BreadCrumbs/> */}
+          
+            {/* <nav className="layout-breadcrumb"> */}
+            <nav >
+            <BreadCrumbs/>
+                {/* <ol>
+                    {ObjectUtils.isNotEmpty(breadcrumb) ? (
                         breadcrumb?.labels?.map((label, index) => {
                             return (
                                 <React.Fragment key={index}>
@@ -59,11 +65,10 @@ const AppBreadcrumb = () => {
                         })
                     ) : (
                         <>
-                            {pathname === '/' && <li key={'home'}>E-Commerce Dashboard</li>}
-                            {pathname === '/dashboards/banking' && <li key={'home'}>Banking Dashboard</li>}
+                            {pathname === '/' && <li key={'home'}>Main Dashboard</li>}
                         </>
                     )}
-                </ol>
+                </ol> */}
             </nav>
         </div>
     );

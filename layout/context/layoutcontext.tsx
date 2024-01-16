@@ -13,7 +13,7 @@ export const LayoutProvider = (props: ChildContainerProps) => {
         menuMode: 'drawer',
         colorScheme: 'light',
         theme: 'teal',
-        scale: 14,
+        scale: 12,
         menuTheme: 'light',
         topbarTheme: 'transparent'
     });
