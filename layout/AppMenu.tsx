@@ -21,6 +21,21 @@ const AppMenu = () => {
                     label: 'Boarding & Daycare',
                     icon: 'pi pi-fw pi-home',
                     to: '/daycare'
+                },
+                {
+                    label: 'Grooming',
+                    icon: 'pi pi-fw pi-home',
+                    to: '/grooming'
+                },
+                {
+                    label: 'Training',
+                    icon: 'pi pi-fw pi-home',
+                    to: '/training'
+                },
+                {
+                    label: 'Services',
+                    icon: 'pi pi-fw pi-home',
+                    to: '/services'
                 }
                 // {
                 //     label: 'Banking',
